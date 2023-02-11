@@ -94,9 +94,18 @@ Para salir de la rama
  git checkout Nombre_rama
 No hay necesidad de volver a entrar a la rama es todo el tiempo intercambiando con checkout
 
+Para crear una nueva rama y acceder a ella de forma directa
+ git checkout -b Rama_nueva
+
 <<<<<<< HEAD
 Se desea fusionar la rama principal con la secundaria
  git merge Rama(esta es la rama secundaria a unir con la pcpal)
+
+Para eliminar la rama secundaria
+git branch -d Nombre_ramaSecundaria
+
+*******
+
 
 
 
