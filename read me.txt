@@ -90,6 +90,11 @@ git checkout Nombre_Rama
 
 (HEAD -> Rama, master) se cambio de master a Rama
 
+Para salir de la rama 
+ git checkout Nombre_rama
+No hay necesidad de volver a entrar a la rama es todo el tiempo intercambiando con checkout
+
+
 
 
 
