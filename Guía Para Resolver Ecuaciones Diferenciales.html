@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- #BeginEditable "doctitle" -->
+    <title>Guía Para Resolver Ecuaciones Diferenciales</title>
+    <script src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/cookie.js"></script><script type="text/javascript" async="" src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/analytics.js"></script><script src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/show_ads_impl_fy2019.js" id="google_shimpl"></script><script language="JavaScript" type="text/javascript">tranfrom='calculus/differential-equations-solution-guide.html';trandate='10 de agosto de 2020';hasdec=1;</script>
+    <!-- #EndEditable -->
+    <meta name="keywords" content="math, maths, mathematics, school, homework, education">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=true;">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="pics-label" content="(PICS-1.1 &quot;http://www.classify.org/safesurf/&quot; L gen true for &quot;http://www.mathsisfun.com&quot; r (SS~~000 1))">
+    <link rel="stylesheet" type="text/css" href="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/style3.css">
+    <script src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/main3.js" type="text/javascript"></script>
+  <meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/integrator.js" as="script"><script type="text/javascript" src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/integrator.js"></script><link rel="preload" href="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/integrator_002.js" as="script"><script type="text/javascript" src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/integrator_002.js"></script></head>
+  <body id="bodybg" class="adv">
+    <div class="bg">
+      <div id="stt"><div style="position: fixed; top: 0px; left: 50%; margin: 10px 0 10px 423px; text-align: right; "><a href="http://www.disfrutalasmatematicas.com/calculo/index.html" style="text-decoration: none; color: #888888; vertical-align: middle; display: table;"><div id="menuRt">Índice de Cálculo</div></a></div></div>
+      <div id="hdr"></div>
+      <div id="logo"><a href="https://www.disfrutalasmatematicas.com/"><img src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/logo.svg" alt="Math is Fun"></a></div>
+      <div id="advText">Avanzado</div>
+      <div id="gtran">
+        <script type="text/javascript">document.write(getTrans());</script></div>
+      <div id="gplus">
+        <script type="text/javascript">document.write(getGPlus());</script></div>
+      <div id="adTopOuter" class="centerfull noprint">
+        <div id="adTop">
+          <script type="text/javascript">document.write(getAdTop());</script> </div>
+      </div>
+      <div id="adHide">
+        <div id="showAds1"><a href="javascript:showAds()">Mostrar anuncios</a></div>
+        <div id="hideAds1"><a href="javascript:hideAds()">Ocultar anuncios</a><br>
+          <a href="http://www.disfrutalasmatematicas.com/about-ads.html">Sobre anuncios</a></div>
+      </div>
+      <div id="menuWide" class="menu">
+        <script type="text/javascript">document.write(getMenu(0));</script><ul role="list"><li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/index.html">Inicio</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/algebra/index.html">Álgebra</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/datos/index.html">Datos</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/geometria/index.html">Geometría</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/medida/index.html">Medida</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/numeros/index.html">Números</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/definiciones/index.html">Diccionario</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/juegos/index.html">Juegos</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/puzzles/index.html">Puzzles</a></li>
+<li role="listitem" tabindex="0"><a href="http://www.disfrutalasmatematicas.com/ejercicios/index.php">Ejercicios</a></li>
+</ul> </div>
+      <div id="linkto">
+        <div id="linktort">
+          <script type="text/javascript">document.write(getLinks());</script><a href="javascript:linkToUs()" id="linkus" title="Link To Us">Link To Us</a><a target="_blank" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-guia.html&amp;t=Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales" title="Share on Facebook" id="linkfb">Facebook</a> <a target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?source=http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-guia.html&amp;text=Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales:%20http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-guia.html" title="Tweet it" id="linktw">Twitter</a> <a target="_blank" rel="nofollow" href="http://pinterest.com/pin/create/button/?url=http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-guia.html&amp;description=Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales" title="Pin it" id="linkpi">Pinterest</a><a target="_blank" rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.disfrutalasmatematicas.com%2Fcalculo%2Fecuaciones-diferenciales-guia.html&amp;summary=Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales&amp;source=mathsisfun.com" title="LinkedIn" id="linkli">LinkedIn</a><a href="javascript:tellAFriend()" id="linkem" title="eMail">eMail a Friend</a></div>
+      </div>
+      <div id="search" role="search">
+        <script type="text/javascript">document.write(getSearch());</script><form action="../search/search.html" method="get"><input type="text" name="query" placeholder="Buscar" id="searchFld" aria-label="Search"><input type="submit" name="submit" value="" id="searchBtn" aria-label="Search Button"><input type="hidden" name="search" value="1"></form></div>
+      <div id="menuSlim" class="menu">
+        <script type="text/javascript">document.write(getMenu(1));</script><ul role="list"><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/index.html">Inicio</a></li><li><a role="listitem" href="#">Sujetos ▼</a><ul><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/algebra/index.html">Álgebra</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/calculo/index.html">Cálculo</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/datos/index.html">Datos</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/geometria/index.html">Geometría</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/medida/index.html">Medida</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/dinero/index.html">Dinero</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/numeros/index.html">Números</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/definiciones/index.html">Diccionario</a></li></ul></li><li><a role="listitem" href="#">Más ▼</a><ul role="list"><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/juegos/index.html">Juegos</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/puzzles/index.html">Puzzles</a></li><li><a role="listitem" href="http://www.disfrutalasmatematicas.com/ejercicios/index.php">Ejercicios</a></li></ul></li></ul> </div>
+      <div id="menuTiny" class="menu">
+        <script type="text/javascript">document.write(getMenu(2));</script>&nbsp;<a href="javascript:showMenu()" style="text-decoration: none;" aria-label="Show Menu"><img src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/menu.svg" alt="Menu"></a> <a href="javascript:showSrch()" style="text-decoration: none;" aria-label="Show Search"><img src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/search.svg" alt="Search"></a> </div>
+      <div id="extra"></div>
+    </div>
+    <div id="content" role="main"><!-- #BeginEditable "Body" -->
+      <h1 align="center">Guía Para Resolver Ecuaciones Diferenciales</h1>
+      <br>
+      <div class="def">
+        <p>Una <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales.html">Ecuación Diferencial</a>
+          es una ecuación con una <a href="http://www.disfrutalasmatematicas.com/conjuntos/funcion.html">función</a>
+          y una o más de sus <a href="http://www.disfrutalasmatematicas.com/calculo/derivadas-introduccion.html">derivadas</a>:</p>
+        <p class="center"><img src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/diff-eq-1.svg" alt="ecuación diferencial y + dy/dx = 5x"><br>
+          Ejemplo: una ecuación con la función <b>y</b> y su derivada&nbsp;<b><span class="intbl"><em>dy</em> <strong>dx</strong> </span> </b>
+          &nbsp; </p>
+      </div>
+      <p style="height: 8.53731px;"><br>
+      </p>
+      <p>En nuestro mundo las cosas cambian, y <strong>describir cómo cambian</strong>
+        a menudo termina expresándose mediante una Ecuación Diferencial.<br>
+        <br>
+        Los ejemplos del mundo real donde se utilizan Ecuaciones Diferenciales
+        incluyen el crecimiento de la población, la electrodinámica, el flujo
+        del calor, el movimiento planetario, los sistemas económicos y mucho
+        más.</p>
+      <h2>Resolver</h2>
+      <p>Como se comentó, una Ecuación Diferencial puede ser una forma muy
+        natural de describir algo.</p>
+      <div class="example">
+        <h3>Ejemplo: Crecimiento poblacional</h3>
+        <p>Aquí decimos que una población "N" cambia (en cualquier instante) en
+          función de la tasa de crecimiento multiplicada por la población en ese
+          instante:</p>
+        <p class="center large"><span class="intbl"><em>dN</em><strong>dt</strong></span>
+          = rN</p>
+      </div>
+      <p>Pero no es muy útil tal como está.<br>
+        <br>
+        ¡Necesitamos <b>resolverla</b>!<br>
+        <br>
+        La <b>resolvemos </b>cuando descubrimos la <b>función y</b> (o el
+        conjunto de funciones y) que satisface la ecuación. </p>
+      <div class="example">
+        <h3>Ejemplo: (continuación)</h3>
+        <p>Nuestro ejemplo se resuelve con esta ecuación:</p>
+        <p class="center larger">N(t) = N<sub>0</sub>e<sup>rt</sup> </p>
+        que en realidad se puede usar así:<br>
+        <br>
+        Una población que comienza en 1000 (N<sub>0</sub>) con una tasa de
+        crecimiento del 10% por mes (r) crecerá hasta
+        <ul>
+          <li>1000e<sup>0,1x1</sup> = 1105 en 1 mes</li>
+          <li>1000e<sup>0,1x6</sup> = 1822 en 6 meses</li>
+          <li>etc.</li>
+        </ul>
+      </div>
+      <p>&nbsp;</p>
+      <p>No existe una fórmula mágica para resolver todas las Ecuaciones
+        Diferenciales.</p>
+      <p class="fun">Pero a lo largo de los milenios, las grandes mentes se han
+        basado en el trabajo de las demás y han descubierto diferentes métodos
+        (¡posiblemente largos y complicados!) para resolver <strong>algunos </strong>tipos
+        de Ecuaciones Diferenciales.<br>
+      </p>
+      <p>&nbsp;</p>
+      <p id="top-of-page">Así que echemos un vistazo a algunos de los diferentes
+        <b>tipos de Ecuaciones Diferenciales</b> y cómo resolverlos.</p>
+      <div class="dotpoint"><a href="#separation">Separación de Variables</a> -
+        Las ecuaciones se ven así:
+        <div class="center def"> <span class="intbl"><em>dy</em><strong>dx</strong></span>
+          = <span class="intbl"><em>x</em><strong>y</strong></span> </div>
+      </div>
+      <div class="dotpoint"><a href="#first-order">Lineales de Primer Orden</a>
+        - Son de este tipo:
+        <div class="center def"> <span class="intbl"><em>dy</em><strong>dx</strong></span>
+          + P(x)y = Q(x) </div>
+      </div>
+      <div class="dotpoint"><a href="#homogeneous">Homogéneas</a> - Las
+        ecuaciones se ven así:
+        <div class="center def"> <span class="intbl"> <em>dy</em> <strong>dx</strong>
+          </span> = F (&nbsp;<span class="intbl"> <em>y</em> <strong>x</strong></span>
+          ) </div>
+      </div>
+      <div class="dotpoint"><a href="#bernoulli">Bernoulli</a> - Tienen esta
+        forma general:
+        <div class="center def"> <span class="intbl"><em>dy</em><strong>dx</strong></span>
+          + P(x)y = Q(x)y<sup>n</sup>, n ≠ 0 or 1 </div>
+      </div>
+      <div class="dotpoint"><a href="#second">Segundo Orden (homogéneas)</a> -
+        Son de este tipo:
+        <div class="center def"> <span class="intbl"></span><span class="intbl"><em>d<sup>2</sup>y</em><strong>dx</strong></span>
+          + P(x)<span class="intbl"> <em>dy</em> <strong>dx</strong></span> +
+          Q(x)y = 0 </div>
+      </div>
+      <div class="dotpoint"><a href="#undetermined">Coeficientes Indeterminados</a>
+        y <a href="#variation">Variación de Parámetros</a> - Ambos son métodos
+        para resolver ecuaciones de segundo orden cuando no son homogéneas,
+        como:
+        <div class="center def"> <span style="  color: #333333;"> </span><span class="intbl"><em>d<sup>2</sup>y</em><strong>dx</strong></span> + p<span class="intbl"> <em>dy</em> <strong>dx</strong></span> + qy = f(x)<br>
+        </div>
+      </div>
+      <div class="dotpoint"><a href="#exact">Ecuaciones Exactas</a> - Son
+        aquellas ecuaciones diferenciales de primer orden, como esta:
+        <p class="center large"> M(x,y)dx + N(x,y)dy = 0 </p>
+        <p> tal que existe cierta función <span class="large">I(x,y)</span>
+          cuyas <a href="http://www.disfrutalasmatematicas.com/calculo/derivadas-parciales.html">derivadas parciales</a> se
+          pueden poner en lugar de M y N, así:</p>
+        <div class="def">
+          <p class="center large"><span class="intbl"><em>∂I</em><strong>∂x</strong></span>dx
+            + <span class="intbl"><em>∂I</em><strong>∂y</strong></span>dy = 0 </p>
+        </div>
+        <p>&nbsp;</p>
+      </div>
+      <p>&nbsp;</p>
+      <h2 id="separation"> Separación de Variables </h2>
+      <div class="center80">
+        <p style="float:left; margin: 10 10px 5px 0;"><img src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/diff-eq-sep-var-a.svg" alt="Separación de Variables"> </p>
+        <p>La separación de Variables se puede usar cuando: <br>
+          <br>
+          se pueden mover todos los términos<b> y</b> (incluido dy) a un lado de
+          la ecuación y<br>
+          <br>
+          todos los términos<b> x</b> (incluido dx) al otro lado.</p>
+        <p><br>
+        </p>
+      </div>
+      <p>Si ese es el caso, tendrás que integrar y simplificar la solución.</p>
+      <p> <a href="http://www.disfrutalasmatematicas.com/calculo/separacion-variables.html">Lee más sobre Separación de
+          Variables</a> </p>
+      <p> <a href="#top-of-page">Volver arriba</a> </p>
+      <h2 id="first-order">Lineales de Primer Orden</h2>
+      <p>Una <strong>ecuación diferencial de primer orden</strong> es <strong>lineal
+          </strong>cuando se puede hacer que tenga este aspecto:</p>
+      <p class="center"><span class="intbl"> <em>dy</em> <strong>dx</strong> </span>
+        + P(x)y = Q(x)</p>
+      <p>Donde <b>P(x)</b> y <b>Q(x)</b> son funciones de x.</p>
+      <p>Observa que son de "Primer Orden" cuando solo hay&nbsp;<b><span class="intbl"><em>dy</em>
+            <strong>dx</strong> </span> </b>, no <b> <span class="intbl"> <em>d<sup>2</sup>y</em>
+            <strong>dx<sup>2</sup></strong>&nbsp;</span></b> ni <b> <span class="intbl">
+            <em>d<sup>3</sup>y</em> <strong>dx<sup>3</sup></strong> </span> </b>,
+        etc.</p>
+      <p>Si tienes una ecuación como esta, puedes leer más en <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-primer-orden-lineal.html">Solución
+          de Ecuaciones Diferenciales Lineales de Primer Orden</a> </p>
+      <b>Nota:</b> Las ecuaciones diferenciales no lineales son a menudo más
+      difíciles de resolver y, por lo tanto, comúnmente se aproximan mediante
+      ecuaciones diferenciales lineales para encontrar una solución más fácil.<br>
+      <p> <a href="#top-of-page">Volver arriba</a></p>
+      <h2 id="homogeneous">Ecuaciones Homogéneas</h2>
+      <p>Hay otro tipo especial de ecuaciones en las que se puede utilizar la
+        separación de variables, las homogéneas.<br>
+        <br>
+        Se dice que una ecuación diferencial de primer orden es homogénea si se
+        puede escribir en la forma</p>
+      <p class="center larger"> &nbsp; <span class="intbl"> <em>dy</em> <strong>dx</strong>
+        </span> = F (&nbsp;<span class="intbl"> <em>y</em> <strong>x</strong>
+        </span> ) </p>
+      <p>Dicha ecuación se puede resolver utilizando el cambio de variables:</p>
+      <p class="center larger">v = <span class="intbl"> <em>y</em> <strong>x</strong>
+        </span> </p>
+      <p>el cual transforma la ecuación en una que es separable. Para descubrir
+        más sobre este tipo de ecuaciones, consulta esta guía completa sobre <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-homogeneas.html">Ecuaciones
+          Diferenciales Homogéneas </a></p>
+      <p> <a href="#top-of-page">Volver arriba</a></p>
+      <h2 id="bernoulli">Ecuación de Bernoulli</h2>
+      <p>Una ecuación de Bernoulli tiene esta forma:</p>
+      <p class="center"><span class="large"><span class="intbl"><em>dy</em><strong>dx</strong></span>
+          + P(x)y = Q(x)y<sup>n</sup></span> <br>
+        donde n es cualquier número real excepto 0 o 1</p>
+      <p> </p>
+      <ul>
+        <li>Cuando n = 0 la ecuación se puede resolver como una Ecuación
+          Diferencial Lineal de Primer Orden.</li>
+        <li>Cuando n = 1 la ecuación se puede resolver mediante Separación de
+          Variables.</li>
+        <li>Para otros valores de n podemos resolverla sustituyendo
+          <div style="text-align: center;"> u = y<sup>1−n</sup></div>
+          y convertirla en una ecuación diferencial lineal (y luego resolver
+          eso).</li>
+      </ul>
+      <p> <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-bernoulli.html">Mira ejemplos y
+          aprende más sobre la Ecuación de Bernoulli</a> </p>
+      <p> <a href="#top-of-page">Volver arriba</a></p>
+      <h2 id="second">Ecuaciones de Segundo Orden</h2>
+      En este tipo de ecuaciones aparece la segunda derivada.
+      <div role="main">La ecuación general de segundo orden se escribe de la
+        siguiente manera<br>
+        <p></p>
+        <p style="text-align: center;">&nbsp;a(x)<span class="intbl"><em>d<sup>2</sup>y</em>
+            dx<sup>2</sup></span> + b(x)<span class="intbl"><em>dy</em> dx</span>
+          + c(x)y = Q(x)</p>
+        <p style="text-align: left;">Hay muchos casos distintivos entre estas
+          ecuaciones.<br>
+          <br>
+          Se clasifican en homogéneas (Q(x) = 0), no homogéneas, autónomas,
+          coeficientes constantes, coeficientes indeterminados, etc.<br>
+          <br>
+          Para ecuaciones no homogéneas, la <b>solución general</b> es igual a
+          la suma de:</p>
+        <p style="text-align: left;"><br>
+        </p>
+        <p style="text-align: center;"><em>Solución a la ecuación homogénea
+            correspondiente</em></p>
+        <p style="text-align: center;"><em>+</em></p>
+        <p style="text-align: center;">Solución particular de la ecuación no
+          homogénea</p>
+        <p style="text-align: center;"><em><br>
+          </em></p>
+        <p> <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-segundo-orden.html">Aprende más
+            sobre este tipo de ecuaciones</a> </p>
+        <p> <a href="#top-of-page">Volver arriba</a> </p>
+        <h2 id="undetermined">Coeficientes indeterminados</h2>
+        <p>Este método funciona para una ecuación no homogénea como</p>
+        <p class="center large"><span class="intbl"><em>d<sup>2</sup>y</em><strong>dx<sup>2</sup></strong></span>
+          + P(x)<span class="intbl"><em>dy</em><strong>dx</strong></span> +
+          Q(x)y = f(x)</p>
+        donde f(x) es un polinomio, una exponencial, seno, coseno o una
+        combinación lineal de esas.<br>
+        <br>
+        Para simplificar las cosas, solo miramos el caso:
+        <p class="center large"><span class="intbl"><em>d<sup>2</sup>y</em><strong>dx<sup>2</sup></strong></span>
+          + p<span class="intbl"><em>dy</em><strong>dx</strong></span> + qy =
+          f(x)</p>
+        <p>donde <b>p</b> y <b>q</b> son constantes.</p>
+        <p>La <strong>solución completa</strong> a tal ecuación se puede
+          encontrar combinando dos tipos de solución: </p>
+        <ol>
+          <li>La <b>solución general </b>de la ecuación homogénea</li>
+          <p class="center"><span class="intbl"><em>d<sup>2</sup>y</em><strong>dx<sup>2</sup></strong></span>
+            + p<span class="intbl"><em>dy</em><strong>dx</strong></span> + qy =
+            0</p>
+          <li><b>Soluciones particulares</b> de la ecuación no homogénea</li>
+          <p class="center"><span class="intbl"><em>d<sup>2</sup>y</em><strong>dx<sup>2</sup></strong></span>
+            + p<span class="intbl"><em>dy</em><strong>dx</strong></span> + qy =
+            f(x)</p>
+        </ol>
+        <p> Una vez que hemos encontrado la solución general y todas las
+          soluciones particulares, entonces la solución final completa se
+          encuentra sumando todas las soluciones.<br>
+          <br>
+          ¡Este método también implica <b>adivinar</b>! Lee más en <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-coeficientes-indeterminados.html">Coeficientes
+            Indeterminados</a> </p>
+        <p> <a href="#top-of-page">Volver arriba</a></p>
+        <h2 id="variation">Variación de Parámetros </h2>
+        <p> Este es un método más general que los coeficientes indeterminados.<br>
+          <br>
+          Una vez que tengas la solución general de la ecuación homogénea,
+          tienes dos soluciones fundamentales y<sub>1</sub> y y<sub>2</sub><br>
+          <br>
+          Y cuando y<sub>1</sub> y y<sub>2</sub> son las dos soluciones
+          fundamentales de la ecuación homogénea</p>
+        <p class="center"> <span class="intbl"><em>d<sup>2</sup>y</em><strong>dx<sup>2</sup></strong></span>
+          + p<span class="intbl"><em>dy</em><strong>dx</strong></span> + qy = 0
+        </p>
+        <p>luego se calcula el Wronskiano W(y<sub>1</sub>, y<sub>2</sub>), que
+          es el <a href="http://www.disfrutalasmatematicas.com/algebra/matriz-determinante.html">determinante de
+            una matriz</a> </p>
+        <p>Así:</p>
+        <p class="center larger">W(y<sub>1</sub>, y<sub>2</sub>) = y<sub>1</sub>y<sub>2</sub>'
+          − y<sub>2</sub>y<sub>1</sub>' </p>
+        <p>Y después de calcular el wronskiano ahora podemos encontrar la
+          solución particular de la ecuación diferencial</p>
+        <p class="center larger"> <span class="intbl"><em>d<sup>2</sup>y</em><strong>dx<sup>2</sup></strong></span>
+          + p<span class="intbl"><em>dy</em><strong>dx</strong></span> + qy =
+          f(x) </p>
+        <p>usando la fórmula</p>
+        <p class="center large"> y<sub>p</sub>(x) = −y<sub>1</sub>(x)<span style="font-size:150%;">∫</span><span class="intbl"><em>y<sub>2</sub>(x)f(x)</em><strong>W(y<sub>1</sub>,y<sub>2</sub>)</strong></span>dx
+          + y<sub>2</sub>(x)<span style="font-size:150%;">∫</span><span class="intbl"><em>y<sub>1</sub>(x)f(x)</em><strong>W(y<sub>1</sub>,y<sub>2</sub>)</strong></span>dx
+          </p>
+        <p>Finalmente completamos la solución sumando la solución general y la
+          solución particular.<br>
+          Puedes obtener más información sobre esto en <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-variacion-parametros.html">Variación
+            de Parámetros</a> </p>
+        <p><a href="#top-of-page">Volver arriba</a></p>
+        <h2 id="exact">Ecuaciones exactas y factores integrantes</h2>
+        <p>Una ecuación "exacta" es donde una ecuación diferencial de primer
+          orden como esta:</p>
+        <p class="center large"> M(x,y)dx + N(x,y)dy = 0 </p>
+        <p> tiene una cierta función <span class="large">I(x,y)</span> cuyas
+          derivadas parciales se pueden poner en lugar de M y N, así:</p>
+        <p class="center large"><span class="intbl"><em>∂I</em><strong>∂x</strong></span>dx
+          + <span class="intbl"><em>∂I</em><strong>∂y</strong></span>dy = 0 </p>
+        <p>y nuestro trabajo es encontrar esa función mágica I(x, y) si es que
+          existe.<br>
+          <br>
+          Descubre cómo solucionarlas en <a href="http://www.disfrutalasmatematicas.com/calculo/ecuaciones-diferenciales-exactas.html">Ecuaciones
+            Exactas y Factores Integrantes</a></p>
+        <p><a href="#top-of-page">Volver arriba</a> </p>
+        <h2>Ecuaciones Diferenciales Ordinarias (EDO) vs Ecuaciones
+          Diferenciales Parciales (EDP)</h2>
+        <p>Todos los métodos hasta ahora sirven para resolver Ecuaciones
+          Diferenciales Ordinarias (EDO).</p>
+        <div class="words">
+          <p>El término <strong>ordinario </strong>se usa en contraste con el
+            término <em>parcial </em>para indicar derivadas con respecto a una
+            sola variable independiente.</p>
+        </div>
+        Las Ecuaciones Diferenciales con funciones multivariables desconocidas y
+        sus derivadas parciales son de un tipo diferente y requieren métodos
+        distintos para resolverlas.<br>
+        <br>
+        Se llaman <strong>Ecuaciones Diferenciales Parciales</strong> (EDP), y
+        lo siento pero aún no tenemos ninguna página sobre este tema.
+        <p>&nbsp;</p>
+        <br>
+        <div class="related"> <a href="http://www.disfrutalasmatematicas.com/calculo/index.html">Índice de Cálculo</a> </div>
+      </div>
+      <!-- #EndEditable --></div>
+    <div id="adend" class="centerfull noprint">
+      <script type="text/javascript">document.write(getAdEnd());</script><script async="" src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/adsbygoogle.js"></script><!-- mif1905 --><ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-1389989178296449" data-ad-slot="2009442555" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="border: medium none; height: 280px; width: 760px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_0_anchor" style="border: medium none; height: 280px; width: 760px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:760px;height:280px" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1389989178296449&amp;output=html&amp;h=280&amp;slotname=2009442555&amp;adk=215684950&amp;adf=1344346500&amp;pi=t.ma~as.2009442555&amp;w=760&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1599000350&amp;rafmt=1&amp;psa=0&amp;format=760x280&amp;url=http%3A%2F%2Fwww.disfrutalasmatematicas.com%2Fcalculo%2Fecuaciones-diferenciales-guia.html&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;adsid=ChEI8I7TkwYQ2NWAksyR0PKpARI9ADYXSuwrVNzxQPIn6Wt6w46YeDbQFXBC-NLxnsj5J2rBDU9hM6X1PPqVuWZDi-IwiSVrAZFGch7Hdx6Ouw&amp;dt=1651836609794&amp;bpp=14&amp;bdt=2133&amp;idt=21073&amp;shv=r20220504&amp;mjsv=m202204280101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D4b83bcdf23ec1f52-225c8470277c0091%3AT%3D1651836808%3ART%3D1651836808%3AS%3DALNI_MakSeJFRm8GBuos0Dy6TMy89t5RyA&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=6527887664320&amp;frm=20&amp;pv=1&amp;ga_vid=873300553.1651836630&amp;ga_sid=1651836632&amp;ga_hid=1479824327&amp;ga_fc=1&amp;u_tz=-240&amp;u_his=1&amp;u_h=720&amp;u_w=1152&amp;u_ah=690&amp;u_aw=1152&amp;u_cd=24&amp;u_sd=1.25&amp;adx=188&amp;ady=8081&amp;biw=1135&amp;bih=605&amp;scr_x=0&amp;scr_y=5666&amp;eid=31065544%2C31067067%2C31060032%2C31064018&amp;oid=2&amp;pvsid=2945669527535328&amp;pem=339&amp;tmod=569531586&amp;nvt=1&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;eae=0&amp;fc=896&amp;brdim=-7%2C-7%2C-7%2C-7%2C1152%2C0%2C1166%2C704%2C1152%2C605&amp;vis=1&amp;rsz=%7C%7CeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=23&amp;ifi=1&amp;uci=a!1&amp;btvi=1&amp;fsb=1&amp;xpc=qrzTTuzQ5a&amp;p=http%3A//www.disfrutalasmatematicas.com&amp;dtd=43647" data-google-container-id="a!1" width="760" height="280" frameborder="0"></iframe></ins></ins></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div>
+    <div id="footer" class="centerfull noprint">
+      <script type="text/javascript">document.write(getFooter());</script><div id="footMenu"><a href="http://www.disfrutalasmatematicas.com/search/search.html">Buscar</a> ○ <a href="http://www.disfrutalasmatematicas.com/acerca-de-dlm.html">Sobre</a> ○ <a href="http://www.disfrutalasmatematicas.com/contacto.php">Contáctanos</a> ○ <a href="javascript:Citation()">Cita&nbsp;esta&nbsp;Página</a> ○ <b><a href="http://www.disfrutalasmatematicas.com/privacy.html">Privacidad</a></b></div> </div>
+    <div id="copyrt"> Copyright © 2020 DisfrutaLasMatematicas.com<br>
+      <a href="javascript:openEnglish()"><img src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/english-text.svg" alt="Math is Fun Website" style="border: 0;"></a> </div>
+    <script type="text/javascript">document.write(getBodyEnd());</script><script async="" src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/js"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-164262884-1'); </script>
+  
+
+<ins class="adsbygoogle adsbygoogle-noablate" style="display: none !important;" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="border: medium none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="border: medium none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1389989178296449&amp;output=html&amp;adk=2360169000&amp;adf=247283247&amp;lmt=1599000350&amp;plat=1%3A1024%2C2%3A1024%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32&amp;format=0x0&amp;url=http%3A%2F%2Fwww.disfrutalasmatematicas.com%2Fcalculo%2Fecuaciones-diferenciales-guia.html&amp;ea=0&amp;pra=7&amp;wgl=1&amp;dt=1651836609810&amp;bpp=1&amp;bdt=2148&amp;idt=21084&amp;shv=r20220504&amp;mjsv=m202204280101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;nras=1&amp;correlator=6527887664320&amp;frm=20&amp;pv=2&amp;ga_vid=873300553.1651836630&amp;ga_sid=1651836632&amp;ga_hid=1479824327&amp;ga_fc=1&amp;u_tz=-240&amp;u_his=1&amp;u_h=720&amp;u_w=1152&amp;u_ah=690&amp;u_aw=1152&amp;u_cd=24&amp;u_sd=1.25&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1135&amp;bih=605&amp;scr_x=0&amp;scr_y=4330&amp;eid=31065544%2C31067067%2C31060032%2C31064018&amp;oid=2&amp;pvsid=2945669527535328&amp;pem=339&amp;tmod=569531586&amp;nvt=1&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;eae=2&amp;fc=896&amp;brdim=-7%2C-7%2C-7%2C-7%2C1152%2C0%2C1166%2C704%2C1152%2C605&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=23&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=22109" data-google-container-id="a!2" frameborder="0"></iframe></ins></ins></ins><iframe src="Gu%C3%ADa%20Para%20Resolver%20Ecuaciones%20Diferenciales_files/aframe.htm" style="display: none;" width="0" height="0"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220504/r20190131/zrt_lookup.html" style="display: none;"></iframe></html>

@@ -1,0 +1,10 @@
+ git --version      version de git
+ git config --global user.name "Dayra"   usuario
+ git config --global user.email "dayruchita@gmail.com   correo
+ git config --global -l   para saber el usuario y el correo para el control de cambios
+ cd GIT\ W/folder1/     seleccionar el fichero
+ git init      iniciar
+
+
+
+
