@@ -105,6 +105,8 @@ Para eliminar la rama secundaria
 git branch -d Nombre_ramaSecundaria
 
 *******
+Tengo que estar bien ubicada en la rama...
+cada vez que se modifique un archivo se le da add y se añade commit.
 
 
 
