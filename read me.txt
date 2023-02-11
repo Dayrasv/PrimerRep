@@ -97,7 +97,6 @@ No hay necesidad de volver a entrar a la rama es todo el tiempo intercambiando c
 Para crear una nueva rama y acceder a ella de forma directa
  git checkout -b Rama_nueva
 
-<<<<<<< HEAD
 Se desea fusionar la rama principal con la secundaria
  git merge Rama(esta es la rama secundaria a unir con la pcpal)
 
@@ -109,6 +108,8 @@ Tengo que estar bien ubicada en la rama...
 cada vez que se modifique un archivo se le da add y se añade commit.
 
 Si se desea crear una nueva rama se hace el checkout -b Nombre_rama
+
+Si se produce un conflicto <<<<<Head y ====== esto se borra y se hace add y se le añade commit.
 
 
 
