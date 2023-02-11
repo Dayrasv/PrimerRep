@@ -10,14 +10,22 @@
 ******
 Para cambiar este estado se pone:
  git add .
+Se puede usar tambien git add -A
+Tambien git add --all
+
 En caso de que solamente se desee añadir el control de cambios de un archivo se pone
  git add Nombre_archivo
 
+Si se desea agregar todo lo de una carpeta con una determinada extension
+git add Nombre_Carpeta/*.extension
+ 
+Y despues con esto se pueden ver todos los cambios
  git status 
 Ya con esto se añade al control de cambios
 ******
 Para tener la descripcion de los cambios de los archivos
  git commit -m "Commit Inicial"
+Commit Inicial-> Comentario que se le agrega de guia
 ******
 En caso de que se realice algun cambio para saber cual fue se escribe 
  git diff
@@ -27,6 +35,72 @@ En caso de que se realice algun cambio para saber cual fue se escribe
 ******
 Para tener la lista de cambios en el repositorio
  git log
+******
+para crear una carpeta dentro del repositorio
+git add Nombre_Carpeta/
+y con git status se comprueba que existe un nuevo archivo
+******
+Si se desea quitar algun archivo del control de cambios
+git reset Nombre_Carpeta/Nombre_archivo.extension
+******
+Para obtener info de la ayuda se hace
+ git help Nombre_Comando
+******
+Para escribir abreviaciones de los comandos
+git config --global alias.Nombre_letra "Comando"
+
+git config --global alias.l "log"
+Es decir poniendo git l-> git log
+******
+Se agrega un comentario y se ha escrito mal y se desea modificar
+git commit --amend -m "Comentario rectificado"
+******
+En caso de que se desee modificar el nombre de un archivo para que git lleve el control
+git mv Nombre_archivo Nuevo_nombre Archivo
+******
+Para eliminar um archivo se hace
+git rm Nombre_Archivo.extension
+
+Para recuperar la posicion antes de elimina el archivo
+git reset --soft 
+
+Para recuperar el archivo 
+git reset --hard
+
+Ir a un punto del historico sin poner los comentarios que vienen despues:
+git reset --mixed 
+
+Despues de soft, hard, mixed se pone el commit de log(numero largo)
+
+Con git reflog se tiene el historico completo de los cambios
+******
+Si se desea tener archivos que no se reconozcan para el control de cambios debe hacerse un archivo con extension .gitignore
+y dentro se pone el archivo(s) que se desean excluir. En caso de que se desee incluir una carpeta se pone /Nombre_carpeta/
+*******
+Union rama secundaria con la principal: fast forward
+Para crear una rama 
+ git branch Nombre_rama
+
+git log --oneline --decorate --all --graph
+Se especifica la rama en la que estoy
+ (HEAD -> master, Rama) aqui se indica que estoy en la rama master
+
+Si se desea cambiar a una determinada rama es 
+git checkout Nombre_Rama
+
+(HEAD -> Rama, master) se cambio de master a Rama
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
