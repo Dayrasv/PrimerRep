@@ -35,6 +35,8 @@ En caso de que se realice algun cambio para saber cual fue se escribe
 ******
 Para tener la lista de cambios en el repositorio
  git log
+
+
 ******
 para crear una carpeta dentro del repositorio
 git add Nombre_Carpeta/
@@ -110,11 +112,56 @@ cada vez que se modifique un archivo se le da add y se añade commit.
 Si se desea crear una nueva rama se hace el checkout -b Nombre_rama
 
 Si se produce un conflicto <<<<<Head y ====== esto se borra y se hace add y se le añade commit.
+******
+Crear una etiqueta
+ git tag Nombre_etiqueta
 
+Para borrar esta etiqueta
+git tag -d Nombre_etiqueta 
 
+Para poner las versiones 
+git tag -a v1.0.0 -m "Primera fase"
 
+Si se pone git show v1.0.0 aparece info del archivo.
+*******
+El idcopiado sale despues de hacer
+git log --oneline --decorate --all --graph
 
+Si se desea poner una version cuando se hace el git log:
+ git tag -a v0.0.2 idcopiado -m "Texto"
+******
+Para trabajar con github se crea una nueva cuenta 
 
+En la pagina salen los comandos que se deben ejecutar. Cuando es un proyecto nuevo
+git remote add origin htpps:...
+
+git push -u origin master
+Y redirecciona para lapagina de github hay que poner el usuario y la contraseña.
+Ya con esto se carga toda la confiuracion y solo es cuestion de actualizar la pagina.
+
+En caso de que se desee agregar un nuevo archivo desde el html se da la opcion de crear nuevo archivo...
+En la opcion de Preview es como va a lucir el codigo. EN commit new file se crea los comentarios para este archivo.
+Para traer la info desde la pagina web se emplea:
+git fetch
+Trae los cambios desde la pagina web y luego hay que hacer merge.
+
+git pull (+ practica)
+Traer los cambios desde la pagina web(repositorio de github)
+y para llevarlos es con push.
+ solamente se escribe en la consola git pull
+
+*****
+La opcion de fork es para copiar el repositorio de alguien en el nuestro y poder usarlo.
+En el repositorio de la otra persona se hace fork.
+ 
+En la carpeta donde se van a almacenar estos archivos se abre una nueva terminal y se copia la direccion de html de github 
+ git clone <direccion_html>
+
+Ya con esto se crea la carpeta con todos los datos de repositorio seleccionado
+
+Si se realiza alguna modificacion
+ git push origin master
+Para actualizar en la pagina web
 
 
  
