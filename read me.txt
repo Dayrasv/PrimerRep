@@ -161,7 +161,12 @@ Ya con esto se crea la carpeta con todos los datos de repositorio seleccionado
 
 Si se realiza alguna modificacion
  git push origin master
-Para actualizar en la pagina web
+
+Para actualizar en la pagina web y que se vean los resultados
+git add .
+git commit -m <mensaje>
+git push origin master
+Y se actualiza el navegador.....
 
 
  
