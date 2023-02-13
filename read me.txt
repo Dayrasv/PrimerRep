@@ -168,6 +168,14 @@ git commit -m <mensaje>
 git push origin master
 Y se actualiza el navegador.....
 
+******
+Sugerir cambios desde otra cuenta de github hacia un repositorio
+
+*****
+git remote -v
+Se determina el repositorio al cual se esta apuntando.
+ Hay que asociar a la cuenta de git con la de github.
+
 
  
 
